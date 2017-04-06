@@ -1,0 +1,35 @@
+<!--#include virtual="ssi/docNhead.html"-->
+	<!--#include virtual="ssi/h1Nnav.html"-->
+"references") > -1){
+    				var e = document.getElementById("References");
+    				<!--#include virtual="ssi/endScript.html"-->
+		<ul>
+			<li><a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar">HTML and CSS for global nav bar</a></li>
+			<li><a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_image">HTML and CSS for image rollover</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Stage_lighting_instrument#/media/File:Source4labeled2.JPG">Ellipsoidal image</a></li>
+			<li><a href="http://www.diytrade.com/china/pd/7773025/PAR_light_64.html">PAR image</a></li>
+			<li><a href="http://www.stagelightingstore.com/Altman-6-Fresnel-Model-65Q?sc=25&category=279827">Fresnel image</a></li>
+			<li><a href="http://www.stagelightingstore.com/Altman-Sky-Cyc-Triple-Fixture-Horizontal?sc=25&category=780100">Strip image</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Stage_lighting_instrument#/media/File:Scoop_Light.jpg">Scoop image</a></li>
+			<li><a href="https://www.amazon.com/Coidak-CO804-54LEDS-Bright-Control/dp/B012IDO3VS/">LED image</a></li>
+			<li><a href="http://www.stagelightingstore.com/Chroma-Q-Universal-Color-Changer?sc=25&category=37365">Scroller image</a></li>
+			<li><a href="https://www.quora.com/How-do-moving-lights-work">Mover image</a></li>
+			<li><a href="http://www.musson.com/i-cue-moving-mirror.html">I-Cue image</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Color_gel#/media/File:Many_color_gels.jpg">Gels image</a></li>
+			<li><a href="http://www.ebay.com/itm/Altman-6-BD-4-6-4-Leaf-Barndoor-65Q-165Q-NEW-STAGE-STUDIO-CHURCH-/371230610710">Barn Door image</a></li>
+			<li><a href="http://www.stagelightingstore.com/City-Theatrical-185MM-Top-Hat-White">Top Hat image</a></li>
+			<li><a href="http://www.lightronics.com/controlcables_wire.html">Data image</a></li>
+			<li><a href="http://www.norcostco.com/stage-pin-12-3-extension-cable.aspx">Stage Pin image</a></li>
+			<li><a href="http://www.directcablesystems.com/shop/assemblies/neutrik-powercon-cables-3-x-1-5mm/">Powercon image</a></li>
+			<li><a href="https://www.bhphotovideo.com/c/product/812219-REG">Gaff tape image</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Lighting_control_console#/media/File:Acclaim_lightboard.jpg">Preset board image</a></li>
+			<li><a href="http://www.fullcompass.com/prod/258873-ETC-Elec-Theatre-Controls-Ion-1000">Memory board image</a></li>
+			<li><a href="http://www.wybron.com/stage-lighting-accessories/scrolling-color-changers/Forerunner/4540-4-inch-scrolling-color-changer.html">
+				Light with scroller in diagram
+			</a></li>
+			<li><a href="http://www.theatrixx.com/en/products/distros/opto/">Opto Iso in diagram</a></li>
+		</ul>
+		<p>
+			All of the example images of a diffrent feature has a rollover effect of showing a larger version of the image.  JavaScript was used to change the style of the element of the global nav bar that links to the current page.  This is to graphically show where the user is, and avoids having to have a diffrent nav bar for each page.  
+		</p>
+		<!--#include virtual="ssi/footer.html"-->
