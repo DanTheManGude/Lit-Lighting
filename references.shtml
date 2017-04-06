@@ -3,33 +3,81 @@
 "references") > -1){
     				var e = document.getElementById("References");
     				<!--#include virtual="ssi/endScript.html"-->
-		<ul>
-			<li><a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar">HTML and CSS for global nav bar</a></li>
-			<li><a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_image">HTML and CSS for image rollover</a></li>
-			<li><a href="https://en.wikipedia.org/wiki/Stage_lighting_instrument#/media/File:Source4labeled2.JPG">Ellipsoidal image</a></li>
-			<li><a href="http://www.diytrade.com/china/pd/7773025/PAR_light_64.html">PAR image</a></li>
-			<li><a href="http://www.stagelightingstore.com/Altman-6-Fresnel-Model-65Q?sc=25&category=279827">Fresnel image</a></li>
-			<li><a href="http://www.stagelightingstore.com/Altman-Sky-Cyc-Triple-Fixture-Horizontal?sc=25&category=780100">Strip image</a></li>
-			<li><a href="https://en.wikipedia.org/wiki/Stage_lighting_instrument#/media/File:Scoop_Light.jpg">Scoop image</a></li>
-			<li><a href="https://www.amazon.com/Coidak-CO804-54LEDS-Bright-Control/dp/B012IDO3VS/">LED image</a></li>
-			<li><a href="http://www.stagelightingstore.com/Chroma-Q-Universal-Color-Changer?sc=25&category=37365">Scroller image</a></li>
-			<li><a href="https://www.quora.com/How-do-moving-lights-work">Mover image</a></li>
-			<li><a href="http://www.musson.com/i-cue-moving-mirror.html">I-Cue image</a></li>
-			<li><a href="https://en.wikipedia.org/wiki/Color_gel#/media/File:Many_color_gels.jpg">Gels image</a></li>
-			<li><a href="http://www.ebay.com/itm/Altman-6-BD-4-6-4-Leaf-Barndoor-65Q-165Q-NEW-STAGE-STUDIO-CHURCH-/371230610710">Barn Door image</a></li>
-			<li><a href="http://www.stagelightingstore.com/City-Theatrical-185MM-Top-Hat-White">Top Hat image</a></li>
-			<li><a href="http://www.lightronics.com/controlcables_wire.html">Data image</a></li>
-			<li><a href="http://www.norcostco.com/stage-pin-12-3-extension-cable.aspx">Stage Pin image</a></li>
-			<li><a href="http://www.directcablesystems.com/shop/assemblies/neutrik-powercon-cables-3-x-1-5mm/">Powercon image</a></li>
-			<li><a href="https://www.bhphotovideo.com/c/product/812219-REG">Gaff tape image</a></li>
-			<li><a href="https://en.wikipedia.org/wiki/Lighting_control_console#/media/File:Acclaim_lightboard.jpg">Preset board image</a></li>
-			<li><a href="http://www.fullcompass.com/prod/258873-ETC-Elec-Theatre-Controls-Ion-1000">Memory board image</a></li>
-			<li><a href="http://www.wybron.com/stage-lighting-accessories/scrolling-color-changers/Forerunner/4540-4-inch-scrolling-color-changer.html">
-				Light with scroller in diagram
+		<ul id="cites">
+			<li><a href="http://www.stagelightingstore.com/Altman-6-Fresnel-Model-65Q?sc=25&category=279827">
+				"Altman 6" Quartz Focusing Fresnel with Medium Prefocus Socket - 750W." Altman 6" Quartz Focusing Fresnel with Medium Prefocus Socket - 750W (Altman 65Q). N.p., n.d. Web. 03 Dec. 2016.
 			</a></li>
-			<li><a href="http://www.theatrixx.com/en/products/distros/opto/">Opto Iso in diagram</a></li>
+			<li><a href="http://www.stagelightingstore.com/Altman-Sky-Cyc-Triple-Fixture-Horizontal?sc=25&category=780100">
+				"Altman Sky Cyc (Triple Fixture, Horizontal)." Altman Sky Cyc (Triple Fixture, Horizontal) (Altman SKY-CYC-03). N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.stagelightingstore.com/Chroma-Q-Universal-Color-Changer?sc=25&category=37365">
+				"Chroma-Q Universal Color Changer." Chroma-Q Universal Color Changer (Chroma-Q CHCQMU). N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.stagelightingstore.com/City-Theatrical-185MM-Top-Hat-White">
+				"City Theatrical 185MM Top Hat, White." City Theatrical 185MM Top Hat, White (City Theatrical 2404W). N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.lightronics.com/controlcables_wire.html">
+				"Control Cables & Wire." Lightronics Lighting Control - Control Cables & Wire. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.ebay.com/itm/Altman-6-BD-4-6-4-Leaf-Barndoor-65Q-165Q-NEW-STAGE-STUDIO-CHURCH-/371230610710">
+				Dougllaru. "Altman 6-BD-4 6" 4 Leaf Barndoor 65Q 165Q NEW STAGE STUDIO CHURCH | EBay." EBay. N.p., 02 Nov. 2015. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.fullcompass.com/prod/258873-ETC-Elec-Theatre-Controls-Ion-1000">
+				"ETC/Elec Theatre Controls Ion 1000 Compact 1024 Outputs Lighting Console | Full Compass." Full Compass. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Stage_lighting_instrument#/media/File:Source4labeled2.JPG">
+				"File:Source4labeled2.JPG." Wikipedia. Wikimedia Foundation, n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="https://www.quora.com/How-do-moving-lights-work">
+				"How Do Moving Lights Work?" How Do Moving Lights Work? - Quora. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.musson.com/i-cue-moving-mirror.html">
+				"I-Cue Moving Mirror." I-Cue Moving Mirror. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="https://www.youtube.com/watch?v=eymp8JuYXSQ">
+				MohawkCollegeVideos. "Lighting Board Tutorial Video." YouTube. YouTube, 10 Aug. 2011. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.directcablesystems.com/shop/assemblies/neutrik-powercon-cables-3-x-1-5mm/">
+				"Neutrik Powercon Cables 3 X 1.5mm." Direct Cable Systems. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.theatrixx.com/en/products/distros/opto/">
+				"Opto-splitters." Opto-splitters | Theatrixx Technologies. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.diytrade.com/china/pd/7773025/PAR_light_64.html">
+				"PAR Light 64 - Par-64LP LB - Deliya (China) - LED Lighting - Lighting Products - DIYTrade China Manufacturers Suppliers Directory." DIYTrade.com. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="https://www.bhphotovideo.com/c/product/812219-REG">
+				"Pro Gaffer Tape (3" X 55 Yd, Black)." ProTapes Pro Gaffer Tape (3" X 55 Yd, Black) 001UPCG355MBLA. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="https://www.amazon.com/Coidak-CO804-54LEDS-Bright-Control/dp/B012IDO3VS/">
+				"Robot Check." Robot Check. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.norcostco.com/stage-pin-12-3-extension-cable.aspx">
+				"Stage Pin 12/3 Extension Cable." Norcostco. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_navbar">
+				"Tryit Editor V3.3." Tryit Editor V3.3. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_image">
+				"Tryit Editor V3.3." Tryit Editor V3.3. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Stage_lighting_instrument#/media/File:Scoop_Light.jpg">
+				Wikipedia. Wikimedia Foundation, n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Color_gel#/media/File:Many_color_gels.jpg">
+				Wikipedia. Wikimedia Foundation, n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="https://en.wikipedia.org/wiki/Lighting_control_console#/media/File:Acclaim_lightboard.jpg">
+				Wikipedia. Wikimedia Foundation, n.d. Web. 03 Dec. 2016.
+			</a></li>
+			<li><a href="http://www.wybron.com/stage-lighting-accessories/scrolling-color-changers/Forerunner/4540-4-inch-scrolling-color-changer.html">
+				"Wybron 4540 Forerunner 4-inch Scrolling Color Changer." Wybron 4540 Forerunner 4-inch Scrolling Color Changer. N.p., n.d. Web. 03 Dec. 2016.
+			</a></li>
 		</ul>
 		<p>
-			All of the example images of a diffrent feature has a rollover effect of showing a larger version of the image.  JavaScript was used to change the style of the element of the global nav bar that links to the current page.  This is to graphically show where the user is, and avoids having to have a diffrent nav bar for each page.  
+			I created the diagram on the homepage illustrating the flow of data and power.  An YouTube video was added to the <a href="consols.shtml">Consols</a> page.  All of the example images have a rollover effect that shows a larger version of the image.  JavaScript was used to change the style of the element of the global nav bar that links to the current page.  This is to graphically show where the user is, and avoids having to have a diffrent nav bar for each page.  
+		</p>
+		<p>
+			My web site teaches someone the basics of stage lighting organizing the content accordingly.  I am proud of the JavaScript used to change the style of the current page link in the nav bar.  This allows me to keep the same code for the nav bar across the pages and able to put in in ssi.  The content is very well organized and navigation between the sections is easy with the links in the paragraphs.  The mobil styles could be better.
 		</p>
 		<!--#include virtual="ssi/footer.html"-->

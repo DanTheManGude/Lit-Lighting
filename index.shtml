@@ -11,7 +11,6 @@
 		<p class="indent">
 			In addition, data can be sent to <a href="fixtures.shtml#Intelligent">intelligent lighting fixtures</a>. Intelligent lights are anything that is more than only power and will have a DMX port.  In order to 'talk' to the fixture you must address it at a single number first on the fixture itself.  From consol to consol, they will hangle intelligent fixtures differently. Each attribute of the intelligent fixture can be accessed by addresses in a similar fashion.  Newer boards are able to keep one fixture to one channel using newer software, but in order to access each attribute on an older board you would have to use multiple channels.  For example, let us use a mover with the paramaters of intensity, red, green, blue, pan, and tilt.  We are going to address it at address 11.  Back on the board, address 11 will controll the intensity, address 12 controls how red the beam will be, address 13 controls how blue, and it continues until address 16 which controls tilt.
 		</p>
-		<br>
 		<p class="caption">Diagram of how lighting components are connected</p>
 		<img id="diagram" src="assets/images/diagram.jpg" alt="Diagram of how a lighting components are connected">
 		<!--#include virtual="ssi/footer.html"-->

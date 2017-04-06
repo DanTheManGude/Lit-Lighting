@@ -2,14 +2,14 @@ body {
 	margin-left: 6em;
 	margin-right: 6em;
 	font-family: sans, arial, sans-serif;
-	background-color: #CC333F;
+	background-color: #ddd;
 	text-align: justify;
-	color: White;
+	color: #0A0F0D;
 }
 
 h1 {
 	text-align: center;
-	color: #EDC951;
+	color: #2264aa;
 	font-family: cursive, "Brush Script MT", Times New Roman;
 	font-size: 2.8em;
 }
@@ -18,18 +18,22 @@ h1 {
 nav ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: #333;
+    background-color: #5B5150;
     text-align: center;
 	padding-left: 0;
 }
 
-a {
-    color: "purple";
+p a {
+    color: #4647f8;
     text-decoration: none;
 }
 
-a:hover {
-    color: red;
+p a:visited {
+	color: #68238b
+}
+
+p a:hover {
+    text-decoration: underline;
 }
 
 nav li a{
@@ -41,8 +45,8 @@ nav li a{
 }
 
 nav li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-    color: white;
+    background-color: #a2d5ac;
+    color: black;
 }
 
 nav li {
@@ -65,7 +69,7 @@ nav li {
 }
 
 .dropdown-content a:hover {
-	background-color: #d44
+	background-color: #709377
 }
 
 .dropdown:hover .dropdown-content {
@@ -89,14 +93,14 @@ nav li {
 }
 
 h2 {
-	color: #00A0B0;
+	color: #5B5150;
 	font-size: 1.8em;
 	margin-top: 2em;
 	margin-bottom: 1em;
 }
 
 h4 {
-	color: #EB6841;
+	color: #83599b;
 	font-size: 1.3em;
 	margin-bottom: 1em;
 	clear: left;
@@ -160,8 +164,21 @@ h4 {
 	height: auto;
 }
 
+footer {
+	padding-top: 4em;
+}
+
+iframe {
+	padding-top: 3em;
+}
+
+#cites li {
+	padding-top: .7em;
+	padding-bottom: .7em;
+}
+
 @media only screen and (max-width: 500px) {
     body {
-        background-color: lightblue;
+		font-size: smaller;
     }
 }

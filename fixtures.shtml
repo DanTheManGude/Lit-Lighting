@@ -6,7 +6,7 @@
 		<h2 id="Conventional" class="firsth">
 			Conventional
 		</h2>
-			<p>
+			<p class="indent">
 				Conventional lights can consist of any fixture that is controlled solely by power.  These mostly have a halogen bulb referred to as the lamp and precise dimming capabilities. The general components consist of a lamp housing, C-Clamp, yoke, and gel holder.  The lamp housing holds the lamp and can either be removable from the fixture or easily accessible.  The C-Clamp and yoke are used to hang a light onto a pipe and change the position it faces.  The gel holder is where the fixture can hold a gel frame.  <a href="extras.shtml#Gel">Gels</a> and other accessories are explained further on the <a href="extras.shtml">Extras</a> page. 
 			</p>
 		<h4 class="firsth" id ="Ellipsoidal">
@@ -33,7 +33,7 @@
 				</div>
 			</div>
 			<p>
-				The PAR has its own nich.  PARs have very little control on where the beam is thrown.  They are usually less expensive, lighter, and more durable.  The physical structure resembles a can hence the common name PAR can.
+				PARs have very little control on where the beam is thrown.  They are usually less expensive, lighter, and more durable.  The physical structure resembles a can hence the common name PAR can.
 			</p>
 		<h4 id="Fresnel" >
 			Fresnel
@@ -77,7 +77,7 @@
 		<h2 id="Intelligent">
 			Intelligent
 		</h2>
-			<p>
+			<p class="indent">
 				Any lighting fixture, attachment, or fx machine that receives data from the board can be considered Intelligent lighting.  They use multiple addresses to differentiate which aspect you want to change.  To send data requires cables, and the shorter the distance of cable from board the fixture, the better.  Many casses there will be a 'hub' that that receives data from the board and has multiple ports for data out.  It is imperative to use some sort of hub and not to use a Y split in the cables.  Every intelligent fixture will have a data in as well as a data out.  This allows for chaining data from one fixture to another.  There are many diffrent types of intelligent fixtures where some can be hybrids of others.  On newer boards, there is a way to assign a channel to be an certain intelligent light based on manufacture and model.  After assigning the first address, the board will automatically assign the rest and you can send data to each using paramaters of the channel.  Any fixture that creates its own light will have its first dimmer control intensity.  Always check the manual for instructions on how to address and what parameters are available.  There are more fixtures than listed here, but these are the most common types.
 			</p>
 		<h4 class="firsth">
