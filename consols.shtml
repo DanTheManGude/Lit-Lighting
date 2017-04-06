@@ -1,0 +1,33 @@
+<!--#include virtual="ssi/docNhead.html"-->
+	<!--#include virtual="ssi/h1Nnav.html"-->
+"consols") > -1){
+    				var e = document.getElementById("Consols");
+    				<!--#include virtual="ssi/endScript.html"-->
+    	<h2 id="Preset" class="firsth">
+			Preset
+		</h2>
+			<div class="dropdownI">
+				<img src="assets/images/preset.jpg" alt="An Acclaim two-scene preset board by ETC">
+				<div class="dropdown-contentI">
+					<img src="assets/images/preset.jpg" alt="An Acclaim two-scene preset board by ETC">
+					<div class="descI">An Acclaim two-scene preset board by ETC</div>
+				</div>
+			</div>
+			<p>
+				Preset boards typically have two sets of faders.  The two sets are identical in terms of which dimmers are being controlled.  Two separate fader acts as a master for each set, and you are able to switch from one look to another.  Preset boards can be very useful for events where design is made on the fly.
+			</p>
+		<h2 id="Memory">
+			Memory
+		</h2>
+		<div class="dropdownI">
+				<img src="assets/images/memory.jpg" alt="ETC Ion Consol">
+				<div class="dropdown-contentI">
+					<img src="assets/images/memory.jpg" alt="ETC Ion Consol">
+					<div class="descI">ETC Ion Consol</div>
+				</div>
+			</div>
+			<p>
+				Memory boards can record multiple channel levels in cues and is the standard when working on theatrical productions.  When recording a cue all the channel levels will be captured and can be called upon later by returning to that cue.  Every lighting change can be recorded to make a new cue, and during performance the only required work is to hit the "Go" button.  This eliminates much of human error.  Older boards could have dozens of faders to control channel levels.  Newer boards have a very sophisticated software and can include features such as intelligent fixtures controlled by one channel, touchscreen, and graphical GUI interface.  Every board is different in some way, and be sure to read the manuel to learn about each feature and how to use it.
+			</p>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/eymp8JuYXSQ" allowfullscreen></iframe>
+		<!--#include virtual="ssi/footer.html"-->
