@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <title>Dan Gude's Lit Lighting</title>
+  </head>
+  <body>
+    <h1>Dan Gude's Lit Lighting</h1>
+    <nav>
+      <ul>
+        <li>
+          <a target="_blank" href="http://dangude.com">My Main Site</a>
+        </li>
+        <li>
+          <a id="Homepage" href="index.html">Homepage</a>
+        </li>
+        <li class="dropdown">
+          <a id="Fixtures" class="dropbtn" href="fixtures.html">Fixtures</a>
+          <div class="dropdown-content">
+            <a href="fixtures.html#Conventional">Conventional</a>
+            <a href="fixtures.html#Intelligent">Intelligent</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a id="Extras" class="dropbtn" href="extras.html">Extras</a>
+          <div class="dropdown-content">
+            <a href="extras.html#Modifier">Fixture Modifier</a>
+            <a href="extras.html#Utility">Utility</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a id="Consols" class="dropbtn" href="consols.html">Consols</a>
+          <div class="dropdown-content">
+            <a href="consols.html#Preset">Preset</a>
+            <a href="consols.html#Memory">Memory</a>
+          </div>
+        </li>
+        <li>
+          <a id="AboutMe" href="aboutme.html">About Me</a>
+        </li>
+      </ul>
+    </nav>
+    <script>
+      window.onload = function myFunction() {
+        var bc = "#a2d5ac";
+        var c = "black";
+        if (window.location.href.indexOf("aboutme") > -1) {
+          var e = document.getElementById("AboutMe");
+          e.style.backgroundColor = bc;
+          e.style.color = c;
+        }
+      };
+    </script>
+    <p class="indent">
+      <strong>
+        Please note that this site it no longer updated and to visit
+        <a href="http://dangude.com">my main page</a> which has more information
+        about me. </strong
+      >My name is Daniel Gude and I am a first year student studying Software
+      Engineering at RIT. During my 4 years of highschool I rigged, designed,
+      and ran the lighting for my school. I worked on the annual chorus
+      concerts, fall plays, and spring musicals as well as any other event
+      occurring in the auditorium. I have had experience working on ETC's
+      Express 48/96 board and the ETC ION. (Side note the ION runs the same
+      software as the EOS Ti which is the most prevalent board used on Broadway)
+      So far at RIT, I designed a theatre club's musical this past fall. Over
+      the summer of 2016, I was employed by a Lighting and Sound company. In the
+      weeks leading up to the highschool performances, I would be the first to
+      arrive and leave hours after anyone else. Lighting is a passion of mine
+      and I hope you can learn something from this page.
+    </p>
+    <div id="sahs">
+      <img
+        src="assets/images/me.jpg"
+        alt="Picture of me at the lighting consol from highschool."
+      />
+      <div>me at the lighting consol from my highschool.</div>
+    </div>
+    <div id="addams">
+      <img
+        src="assets/images/addams.jpg"
+        alt="Scene from  RIT's theatre club show"
+      />
+      <div>scene from RIT Players's musical I designed</div>
+    </div>
+    <footer>
+      <p>&copy; Copyright 2016 - All rights reserved</p>
+    </footer>
+  </body>
+</html>

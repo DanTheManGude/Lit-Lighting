@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <title>Dan Gude's Lit Lighting</title>
+  </head>
+  <body>
+    <h1>Dan Gude's Lit Lighting</h1>
+    <nav>
+      <ul>
+        <li>
+          <a target="_blank" href="http://dangude.com">My Main Site</a>
+        </li>
+        <li>
+          <a id="Homepage" href="index.html">Homepage</a>
+        </li>
+        <li class="dropdown">
+          <a id="Fixtures" class="dropbtn" href="fixtures.html">Fixtures</a>
+          <div class="dropdown-content">
+            <a href="fixtures.html#Conventional">Conventional</a>
+            <a href="fixtures.html#Intelligent">Intelligent</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a id="Extras" class="dropbtn" href="extras.html">Extras</a>
+          <div class="dropdown-content">
+            <a href="extras.html#Modifier">Fixture Modifier</a>
+            <a href="extras.html#Utility">Utility</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a id="Consols" class="dropbtn" href="consols.html">Consols</a>
+          <div class="dropdown-content">
+            <a href="consols.html#Preset">Preset</a>
+            <a href="consols.html#Memory">Memory</a>
+          </div>
+        </li>
+        <li>
+          <a id="AboutMe" href="aboutme.html">About Me</a>
+        </li>
+      </ul>
+    </nav>
+    <script>
+      window.onload = function myFunction() {
+        var bc = "#a2d5ac";
+        var c = "black";
+        if (window.location.href.indexOf("extras") > -1) {
+          var e = document.getElementById("Extras");
+          e.style.backgroundColor = bc;
+          e.style.color = c;
+        }
+      };
+    </script>
+    <h2 id="Modifier" class="firsth">Fixture Modifier</h2>
+    <p>
+      Fixture Modifiers are anything that can be attached to a fixture to
+      enhance, change, or control the light given off by it.
+    </p>
+    <h4 class="firsth" id="Gel">Gels and Gel Frames</h4>
+    <div class="dropdownI">
+      <img
+        src="assets/images/gels.jpg"
+        alt="Many color gels, some in gel frames"
+      />
+      <div class="dropdown-contentI">
+        <img
+          src="assets/images/gels.jpg"
+          alt="Many color gels, some in gel frames"
+        />
+        <div class="descI">Many color gels, some in gel frames</div>
+      </div>
+    </div>
+    <p>
+      A gel is a colored transparent plastic like material used to change the
+      color of the light given off by a
+      <a href="fixtures.html#Conventional">conventional fixture</a>. Gels
+      typically come in 3x3 feet sheets and can be cut to fit your desired
+      fixture. To use a gel you must place it in a gel frame that is suited for
+      the fixture. <a href="fixtures.html#Strip">Strip</a> lights used for cycs
+      typically have diffrent gels in order to mix the colors. Gels can be very
+      useful when it comes to designing.
+    </p>
+    <h4 id="Gobo">Gobo</h4>
+    <div class="dropdownI">
+      <img src="assets/images/gobo.jpg" alt="metal gobo in a gobo holder" />
+      <div class="dropdown-contentI">
+        <img src="assets/images/gobo.jpg" alt="metal gobo in a gobo holder" />
+        <div class="descI">metal gobo in a gobo holder</div>
+      </div>
+    </div>
+    <p>
+      Gobos are metal or glass disks that are cut out to form a shapes, images,
+      or text. A gobo mus be placed in a gobo holder. A gobo holder can only be
+      inserted into an
+      <a href="fixtures.html#Ellipsoidal">ellipsoidal</a> towards the middle or
+      gobos are built into some <a href="fixtures.html#Mover">movers</a>. There
+      are companies that will create a custom gobo of your design.
+    </p>
+    <h4 id="BarnDoor">Barn Door</h4>
+    <div class="dropdownI">
+      <img src="assets/images/barndoor.jpg" alt="typical Barn Door" />
+      <div class="dropdown-contentI">
+        <img src="assets/images/barndoor.jpg" alt="typical Barn Door" />
+        <div class="descI">typical Barn Door</div>
+      </div>
+    </div>
+    <p>
+      A barn door is something to put on the front of
+      <a href="fixtures.html#Fresnel">fresnel</a> to control where the light is
+      thrown. There are flaps on hinges which appear like doors of a barn that
+      can be bent out to your liking. Because of the wash nature of fresnels,
+      barn doors can be very useful in containing light from one. A barn door
+      attaches to the same place the gel frame would go.
+    </p>
+    <h4>Top Hat</h4>
+    <div class="dropdownI">
+      <img src="assets/images/tophat.jpg" alt="typical Top Hat" />
+      <div class="dropdown-contentI">
+        <img src="assets/images/tophat.jpg" alt="typical Top Hat" />
+        <div class="descI">typical Top Hat</div>
+      </div>
+    </div>
+    <p>
+      Top hats shield the light from the audiences eyes. Even if the focus is on
+      stage, the lense from a fixture is visible to the audience can be
+      distracting and looks sloppy. Also, if a light is near the proscenium or
+      something else that needs to be dark, a top hat can prevent spill over
+      light from hitting it. Top hats are attached using the same place a gel
+      frame would go.
+    </p>
+    <h2 id="Utility">Utility</h2>
+    <h4 class="firsth" id="Data">Data Supply</h4>
+    <div class="dropdownI">
+      <img src="assets/images/data.jpg" alt="5 pin DMX cable" />
+      <div class="dropdown-contentI">
+        <img src="assets/images/data.jpg" alt="5 pin DMX cable" />
+        <div class="descI">5 pin DMX cable</div>
+      </div>
+    </div>
+    <p>
+      To send data, a specialized 5 pin XLR cable is required. DMX is the
+      standard format the data is sent and can be interchanged with the term
+      'data'. Many
+      <a href="fixtures.html#Intelligent">intelligent fixtures</a> will be 3
+      pin, in which case an adapter from 5 pin to 3 pin is perfectly fine to
+      use. Be sure to use DMX lighting 3 pin and not sound XLR, as this may
+      cause problems. A Optical Isolator or Iso for short is a device that can
+      be used as a hub of DMX. There is an in which comes from the board and
+      multiple outs tha can be used to send to fixtures in different directions.
+      Using a Y-splitter will cause problems in data transferring. Fixtures will
+      have a data in as well as data out which can be used for daisy chaining
+      one fixture to another. On the last fixture it is not required but is
+      recommended to have a terminator on the data out to prevent uncontrollable
+      flashes by the other fixtures.
+    </p>
+    <h4 id="Power">Power Supply</h4>
+    <div class="dropdownI">
+      <img src="assets/images/stagepin.jpg" alt="stage pin extension cord" />
+      <div class="dropdown-contentI">
+        <img src="assets/images/stagepin.jpg" alt="stage pin extension cord" />
+        <div class="descI">stage pin extension cord</div>
+      </div>
+    </div>
+    <div class="dropdownI">
+      <img src="assets/images/powercon.jpg" alt="powercon ends" />
+      <div class="dropdown-contentI">
+        <img src="assets/images/powercon.jpg" alt="spowercon ends" />
+        <div class="descI">powercon ends</div>
+      </div>
+    </div>
+    <p>
+      A strip of of power plugs is referred to as raceways. The standard power
+      plug used is stage pin and virtually all raceways and
+      <a href="fixtures.html#Conventional">conventional fixtures</a> use.
+      Extension cords in stage pin are available, but any extensions cords used
+      should be as short as possible to reduce resistance. Adapters with
+      stagepin and Edison are also prevalent. Common amongst
+      <a href="fixtures.html#Intelligent">intelligent fixtures</a> is a power
+      port called powercon, and comes with a powercon to Edison adapter. Many
+      times there will be a powercon power out port on a fixture in oder to
+      achieve a daisy chain of power.
+    </p>
+    <h4 id="Gaff">Gaff Tape</h4>
+    <div class="dropdownI">
+      <img src="assets/images/gaff.jpg" alt="roll of black gaff tape" />
+      <div class="dropdown-contentI">
+        <img src="assets/images/gaff.jpg" alt="roll of black gaff tape" />
+        <div class="descI">roll of black gaff tape</div>
+      </div>
+    </div>
+    <p>
+      Gaffers tape common referred to as Gaff tape can be used for an assortment
+      of uses. Typically in black, it usually does not leave a sticky residue to
+      the surface applied after removal. A common use is to tape down exposed
+      cables to the floor in a neat fashion. It can also be used to tape
+      together a gel frame. A good habit is to put a piece of tap an all of your
+      <a href="fixtures.html#Intelligent">intelligent fixtures</a> and wright
+      the address for easy reference. On
+      <a href="controllers.html">boards</a> with several faders, a technique
+      used to to place tape below all faders with a word or two describing what
+      or where it controls.
+    </p>
+    <footer>
+      <p>&copy; Copyright 2016 - All rights reserved</p>
+    </footer>
+  </body>
+</html>
